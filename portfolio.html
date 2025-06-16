@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAO Viet Long - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9fb;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(135deg, #3a0ca3, #7209b7);
+      color: white;
+      padding: 100px 20px 40px;
+      text-align: center;
+      position: relative;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+      background: rgba(58, 12, 163, 0.9);
+      padding: 15px;
+      text-align: center;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: opacity 0.3s;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      opacity: 0.8;
+    }
+    section {
+      padding: 70px 30px;
+      max-width: 1000px;
+      margin: auto;
+      line-height: 1.8;
+    }
+    h2 {
+      font-size: 2.2em;
+      color: #3a0ca3;
+      margin-bottom: 25px;
+    }
+    .project, .sae, .competency, .contact-info {
+      background: white;
+      padding: 30px;
+      margin: 25px 0;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+    ul {
+      padding-left: 22px;
+    }
+    a {
+      color: #3a0ca3;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.95em;
+    }
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      margin: 20px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DAO Viet Long</h1>
+    <p>3rd-Year Computer Science Student | Sorbonne Paris Nord</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#sae">SAÉ</a>
+      <a href="#internship">Internship</a>
+      <a href="#conclusion">Conclusion</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div style="text-align:center; padding: 20px;">
+    <a href="cv/DAO_Viet_Long_CV.pdf" download style="background-color: #3a0ca3; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: background-color 0.3s;">
+      📄 My CV
+    </a>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am DAO Viet Long, a passionate 3rd-year computer science student currently enrolled at Sorbonne Paris Nord. Originally from Vietnam, I have pursued my studies in both Vietnam and France through an international exchange program, enriching my academic and cultural experience.</p>
+    <p>My academic path includes solid training in software development, database systems, and artificial intelligence. I thrive in dynamic environments where I can learn by building real-world applications, contributing to group projects, and exploring new technologies.</p>
+    <p>Spending a year in France has not only broadened my perspective but also improved my French and English communication skills, which I consider essential assets for collaborating in global tech environments.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python, Java, C, HTML, CSS, JavaScript, SQL</li>
+      <li><strong>Databases:</strong> MySQL, MongoDB, Redis, CockroachDB</li>
+      <li><strong>Tools:</strong> Git, Docker, Jenkins, PaddleOCR, Pygame</li>
+      <li><strong>Frameworks:</strong> React.js, TensorFlow, Keras</li>
+      <li><strong>Operating Systems:</strong> Ubuntu, Windows</li>
+      <li><strong>Development Environments:</strong> VS Code, IntelliJ IDEA, PyCharm, Jupyter Notebook</li>
+      <li><strong>Soft Skills:</strong> Teamwork, Documentation, Time Management, Cross-cultural Communication</li>
+    </ul>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Student Management System</h3>
+      <p>Developed using Python, basic CRUD features.</p>
+    </div>
+    <div class="project">
+      <h3>Online Library Database</h3>
+      <p>Built a relational database with MySQL, managed book/user data.</p>
+    </div>
+    <div class="project">
+      <h3>Table Detection AI</h3>
+      <p>Used deep learning for table detection in documents.</p>
+    </div>
+    <div class="project">
+      <h3>2D Space Shooter Game (Pygame)</h3>
+      <p>Created a space invader-style game using Pygame. Implemented features like multiple enemies, bullet reloading, scoring, game over logic, and animated starfield background.</p>
+      <p><strong>Highlights:</strong> Real-time collision detection, sound effects, reload mechanics, and game loop management using Python and Pygame.</p>
+    </div>
+  </section>
+
+  <section id="sae">
+    <h2>SAÉ Portfolio</h2>
+
+    <div class="sae">
+      <h3>SAÉ - Student Management System</h3>
+      <p><strong>Objective:</strong> Build a program to manage student data using Python.</p>
+      <p><strong>Team Size:</strong> Individual</p>
+      <p><strong>Duration:</strong> 2 weeks</p>
+      <p><strong>Tasks:</strong> Design data structure, implement CRUD operations.</p>
+      <p><strong>Tools:</strong> Python</p>
+      <p><strong>Outcome:</strong> A working student management tool. Helped reinforce object-oriented programming concepts.</p>
+      <p><strong>Related Competency:</strong> Réaliser - Implementing software solutions based on technical specifications and performance goals.</p>
+    </div>
+
+    <div class="sae">
+      <h3>SAÉ - Online Library Database</h3>
+      <p><strong>Objective:</strong> Create a backend database to manage an online library system.</p>
+      <p><strong>Team Size:</strong> 4</p>
+      <p><strong>Duration:</strong> 1 month</p>
+      <p><strong>Tasks:</strong> Design schema, write SQL queries, normalize tables, test with dummy data.</p>
+      <p><strong>Tools:</strong> MySQL, PHPMyAdmin</p>
+      <p><strong>Outcome:</strong> An optimized relational database for book lending and user tracking. Strengthened database modeling skills.</p>
+      <p><strong>Related Competency:</strong> Administrer - Designing and managing databases to support applications and services.</p>
+    </div>
+
+    <div class="sae">
+      <h3>SAÉ - Poketa React App</h3>
+      <p><strong>Objective:</strong> Contribute to the frontend of a Pokémon collection app.</p>
+      <p><strong>Team Size:</strong> 5</p>
+      <p><strong>Duration:</strong> 6 months</p>
+      <p><strong>Tasks:</strong> Implement Collection and Card pages using React.js; participate in GitLab collaboration.</p>
+      <p><strong>Tools:</strong> React.js, GitLab</p>
+      <p><strong>Outcome:</strong> A functional frontend with reusable components. Improved teamwork and frontend architecture understanding.</p>
+      <p><strong>Related Competency:</strong> Collaborer - Working effectively in teams and contributing to shared codebases with version control.</p>
+    </div>
+
+    <div class="sae">
+      <h3>SAÉ - Pygame Space Shooter</h3>
+      <p><strong>Objective:</strong> Create a 2D arcade-style shooting game using Python and Pygame.</p>
+      <p><strong>Team Size:</strong> Individual</p>
+      <p><strong>Duration:</strong> 3 weeks</p>
+      <p><strong>Tasks:</strong> Implement enemy movement, shooting mechanics, reloading system, collision detection, starfield animation, and sound integration.</p>
+      <p><strong>Tools:</strong> Python, Pygame, Sound/Graphic assets</p>
+      <p><strong>Outcome:</strong> A playable game with game-over logic, dynamic score display, and a responsive game loop. Helped deepen understanding of game design patterns and event handling in Python.</p>
+      <p><strong>Related Competency:</strong> Réaliser - Implementing software solutions based on technical specifications and performance goals.</p>
+    </div>
+  </section>
+
+  <section id="internship">
+    <h2>Internship</h2>
+    <div class="project">
+      <h3>Table Detection in Financial Documents</h3>
+      <p><strong>Location:</strong> University of La Rochelle - L3i Laboratory</p>
+      <p><strong>Period:</strong> 2025</p>
+      <p><strong>Summary:</strong> During this internship, I worked on the problem of detecting tables in complex financial documents, which often contain noisy layouts, scanned formats, and irregular structures.</p>
+      <p><strong>Tasks:</strong></p>
+      <ul>
+        <li>Studied and compared three state-of-the-art models: TATR (Transformer-based), TDeLTA (BiLSTM + Attention), and LLaMA3 (prompt-based classification).</li>
+        <li>Built and trained TDeLTA model using PaddleOCR preprocessing, BiLSTM and MultiHeadAttention layers.</li>
+        <li>Evaluated performance on benchmark datasets (PubTabNet, FinTabNet, ICDAR 2013) using metrics like IoU and mean Average Precision (mAP).</li>
+        <li>Implemented postprocessing strategies to eliminate false positives and improve bounding box coherence.</li>
+      </ul>
+      <p><strong>Results:</strong> Achieved 92.15% mAP on PubTabNet, demonstrating robustness and accuracy in detecting table boundaries across various layouts.</p>
+      <p><strong>Challenges:</strong> Dealing with noisy OCR output, dataset inconsistencies (e.g. FinTabNet missing annotations), and tuning models with limited resources.</p>
+      <p><strong>Skills Used:</strong> Python, TensorFlow, Keras, CUDA, PaddleOCR, HuggingFace Transformers</p>
+      <p><strong>Reflection:</strong> This internship greatly improved my understanding of sequence modeling and document AI. I learned to adapt between different modeling paradigms and evaluate trade-offs between performance and practicality.</p>
+    </div>
+  </section>
+
+  <section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>Throughout my academic journey in computer science, I have grown significantly in both technical and interpersonal dimensions. From developing database systems and games to working on advanced AI models, each project has strengthened my ability to solve real-world problems with code. My internship experience particularly honed my understanding of research, evaluation, and optimization in applied machine learning. In addition, after spending a year on exchange in France, my language skills—especially in French and English—have notably improved, allowing me to communicate more confidently in multilingual environments.</p>
+    <p>Among the best practices I developed are version control with Git, modular and reusable coding patterns, documentation habits, and a consistent approach to testing and debugging. I’ve also learned the value of time management, peer collaboration, and continuous learning in evolving technical environments.</p>
+    <p>Looking ahead, I aim to deepen my expertise in software engineering and AI, and contribute to impactful projects that combine innovation with societal benefit. This portfolio reflects not only what I have done, but how I have learned and matured through every challenge encountered.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:daovietlong10@gmail.com">daovietlong10@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/DaoVietLong" target="_blank">github.com/DaoVietLong</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/viet-long-dao-494396337/" target="_blank">linkedin.com/in/viet-long-dao</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DAO Viet Long</p>
+  </footer>
+</body>
+</html>
